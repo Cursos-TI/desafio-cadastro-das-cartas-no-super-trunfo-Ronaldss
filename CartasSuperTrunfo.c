@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h> // para tornar possível o uso do comando 'clear'.
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
@@ -51,6 +52,7 @@ int main() {
 	scanf("%d", &pTuristicos);
 
 	// Carta 2
+	system("clear"); // Limpar linhas anteriores no terminal
 	printf("\n");
 	printf("░░░░░░░░░░░░░░░░ PREENCHA OS DADOS DA CARTA 2 ░░░░░░░░░░░░░░░░\n");
 	printf("\n");
@@ -80,7 +82,7 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    printf("\n");
+    system("clear"); // Limpar linhas anteriores no terminal
     printf("░░░░░░░░░░░░░░░░░ CARTAS CADASTRADAS ░░░░░░░░░░░░░░░░░░░░\n");
 
 	// Saída carta 1
